@@ -1,0 +1,4 @@
+Na GitHub naloži index.html, style.css in script.js v koren repozitorija (ne v podmapo).
+Za fotografije ustvari mapo slike in dodaj slika1.jpg ... slika12.jpg.
+V index.html zamenjaj [vpišita imeni] in po želji dodaj videoposnetka.
+Kviz deluje tudi brez fotografij.
