@@ -1,7 +1,0 @@
-SDG 12 – spletna galerija in trajnostni kviz
-
-Odpri index.html v brskalniku.
-Datoteke index.html, style.css in script.js morajo biti v isti mapi.
-Za galerijo dodaj mapo slike s fotografijami slika1.jpg do slika12.jpg.
-V index.html vpišita imeni avtorjev in po želji dodajta videoposnetka.
-Vprašanja kviza lahko spremenita v datoteki script.js.
