@@ -1,4 +1,0 @@
-Nova postavitev SDG 12: svetla žajbljevo zelena, kremna in terakota.
-Datoteke index.html, style.css in script.js naloži v glavno mapo repozitorija.
-Za fotografije dodaj mapo slike in datoteke slika1.jpg do slika12.jpg.
-V index.html dopolni imeni avtorjev in video povezave.
