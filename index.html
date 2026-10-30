@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="sl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171b16">
+  <title>SDG 12 | Odgovorna poraba in proizvodnja</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="sparkle" aria-hidden="true">♻ &nbsp; ✦ &nbsp; ♻</div>
+    <span class="eyebrow">SPLETNA GALERIJA</span>
+    <h1>12. SDG <em>CILJ</em> </h1>
+    <p>Odkrij, kako lahko z odgovorno porabo, manj odpadki in premišljenimi nakupi poskrbimo za boljšo prihodnost.</p>
+    <a class="pill" href="#galerija">Oglej si fotografije ↓</a>
+  </header>
+  <main>
+    <section id="projekt" class="project-section" aria-label="O projektu">
+      <span class="eyebrow">ODGOVORNA PORABA IN PROIZVODNJA</span>
+      <h2>Zakaj je 12. cilj pomemben?</h2>
+      <div class="project-grid">
+        <article class="project-card">
+          <h3>Kaj pomeni 12. cilj?</h3>
+          <p>12. cilj trajnostnega razvoja spodbuja odgovorno porabo in proizvodnjo. Poudarja varčno uporabo surovin, manj zavržene hrane, ponovno uporabo izdelkov in zmanjševanje odpadkov. Vsak lahko prispeva z majhnimi, premišljenimi odločitvami.</p>
+        </article>
+        <article class="project-card">
+          <h3>S katerimi izzivi se srečujemo?</h3>
+          <p>Med pomembnimi izzivi so prekomerno nakupovanje, velike količine embalaže, zavržena hrana in hitro odlaganje še uporabnih izdelkov. Rešitve vključujejo popravila, izmenjavo stvari, ločevanje odpadkov in izbiro trajnejših izdelkov.</p>
+        </article>
+      </div>
+    </section>
+    <section id="galerija" class="section">
+      <div class="section-heading"><div><span class="eyebrow">ZBIRKA FOTOGRAFIJ</span><h2>12 pogledov na odgovorno porabo</h2></div><span class="counter">12 fotografij</span></div>
+      <p class="hint">Oglej si primere trajnostnih navad. Klikni fotografijo za povečavo.</p>
+      <div class="gallery" id="gallery"></div>
+    </section>
+    <section id="kviz" class="game-section quiz-section">
+      <div class="game-intro"><span class="eyebrow">♻ PREVERI SVOJE ZNANJE</span><h2>Trajnostni kviz</h2><p>Odgovori na 5 vprašanj o odgovorni porabi in proizvodnji.</p></div>
+      <div class="quiz-panel">
+        <p class="quiz-progress" id="quiz-progress">Vprašanje 1 od 5</p>
+        <h3 id="quiz-question"></h3>
+        <div id="quiz-options" class="quiz-options"></div>
+        <p id="quiz-feedback" class="game-message" role="status" aria-live="polite"></p>
+        <button id="quiz-next" class="restart" hidden>Naslednje vprašanje →</button>
+      </div>
+    </section>
+    <section id="videi" class="video-section" aria-label="YouTube posnetki">
+      <span class="eyebrow">PREDSTAVITVENI VIDEOPOSNETKI</span>
+      <h2>Poglej si še več</h2>
+      <p>Tukaj lahko dodata dva videoposnetka o odgovorni porabi in proizvodnji.</p>
+      <div class="video-grid">
+        <div class="video-card video-placeholder">Sem dodajta videoposnetek o SDG 12.</div>
+        <div class="video-card video-placeholder">Sem dodajta drugi videoposnetek o SDG 12.</div>
+      </div>
+    </section>
+  </main>
+  <dialog id="viewer" aria-label="Povečana fotografija"><button id="close" class="close" aria-label="Zapri fotografijo">×</button><img id="large" alt=""><p id="caption"></p></dialog>
+  <footer>Projekt SDG 12 · Avtorja: [vpišita imeni] · <span id="year"></span> Spletna galerija</footer>
+  <script src="script.js"></script>
+  <script>
+    // Ob običajnem odprtju strani začni na vrhu; povezave do razdelkov ostanejo delujoče.
+    if ('scrollRestoration' in history) {
+      history.scrollRestoration = 'manual';
+    }
+    window.addEventListener('load', function () {
+      if (!window.location.hash) {
+        window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+      }
+    });
+  </script>
+</body>
+</html>
